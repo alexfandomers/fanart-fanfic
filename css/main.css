@@ -1,0 +1,242 @@
+html, body {
+margin-top: 0px;
+margin: 0;
+width: 100%;
+height: 980px;
+background-color: #161e25;
+text-align: center;
+overflow-x: hidden;
+overflow: visible;
+}
+
+.wow-letter {
+ 
+  display: inline-block;
+  font-family: 'roboto light', 'open sans','Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+  margin-top: 50px;
+  color: #fff;
+  font-size: 50px;
+  font-weight: lighter;
+  text-shadow: 
+		-0   -3px 0   #00ffff,
+		 0   -3px 0   #00ffff,
+		-0    3px 0   #00ffff,
+		 0    3px 0   #00ffff,
+		-3px -0   0   #00ffff,
+		 3px -0   0   #00ffff,
+		-3px  0   0   #00ffff,
+		 3px  0   0   #00ffff,
+		-1px -3px 0   #00ffff,
+		 1px -3px 0   #00ffff,
+		-1px  3px 0   #00ffff,
+		 1px  3px 0   #00ffff,
+		-3px -1px 0   #00ffff,
+		 3px -1px 0   #00ffff,
+		-3px  1px 0   #00ffff,
+		 3px  1px 0   #00ffff,
+		-2px -3px 0   #00ffff,
+		 2px -3px 0   #00ffff,
+		-2px  3px 0   #00ffff,
+		 2px  3px 0   #00ffff,
+		-3px -2px 0   #00ffff,
+		 3px -2px 0   #00ffff,
+		-3px  2px 0   #00ffff,
+		 3px  2px 0   #00ffff,
+		-3px -3px 0   #00ffff,
+		 3px -3px 0   #00ffff,
+		-3px  3px 0   #00ffff,
+		 3px  3px 0   #00ffff,
+		-3px -3px 0   #00ffff,
+		 3px -3px 0   #00ffff,
+		-3px  3px 0   #00ffff,
+		 3px  3px 0   #00ffff,
+     1px 1px 100px #00ffff,
+      0 0 1em #00ffff;
+  animation: neon 3s infinite ease-in-out;
+}
+.wow-letter:nth-child(2n) {
+  animation-delay: 0.3s;
+  animation-duration: 3.5s;
+}
+.wow-letter:nth-child(3n) {
+  animation-delay: 0.7s;
+  animation-duration: 2.5s;
+}
+.wow-letter:nth-child(4n) {
+  animation-delay: 0.2s;
+  animation-duration: 3.2s;
+}
+.wow-letter:nth-child(5n) {
+  animation-delay: 0.6s;
+  animation-duration: 2.8s;
+}
+.wow-letter:nth-child(6n) {
+  animation-delay: 0.1s;
+  animation-duration: 2.1s;
+}
+
+@keyframes neon {
+  from {opacity: 1;}
+  14% {opacity: 1;}
+  15% {opacity: 0;}
+  16% {opacity: 1;}
+  66%{opacity: 1;}
+  67%{opacity: 0;}
+  68%{opacity: 1;}
+  69%{opacity: 1;}
+  70%{opacity: 0;}
+  71%{opacity: 1;}
+  to {opacity: 1;}
+}
+
+.introduction {
+font-family: 'roboto','open sans','Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+color: #ffffff;
+text-align: center;
+font-size: 30px;
+text-shadow: 0.1em 0.1em 0.2em #00ffff;
+}
+
+.text-1 {
+font-family: 'roboto light', 'open sans','Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+font-size: 22px;
+color: #ffffff;
+}
+
+.email{
+font-size: 20px;
+color: #00FFFF;
+font-family: 'roboto light', 'open sans','Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+}
+ 
+.artist-1 {
+font-family: 'roboto light', 'open sans','Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+color:#00FFFF  ;
+text-align: center;
+font-size: 30px;
+}
+  
+.fanart{
+margin-right: 5px;
+position: relative;
+}
+
+.thanks{
+font-family: 'roboto light', 'open sans','Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+color:#00FFFF  ;
+text-align: center;
+font-size: 20px;
+}
+
+.artist-2 {
+  font-family: 'roboto light', 'open sans','Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+  color:#00FFFF  ;
+  text-align: center;
+  font-size: 30px;
+}
+
+.video{
+position: relative;
+}
+
+.presentation {
+color: #00FFFF;
+font-family: 'roboto light', 'open sans','Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+}
+
+.artist-3 {
+font-family: 'roboto light', 'open sans','Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+color:#00FFFF  ;
+text-align: center;
+font-size: 30px;
+}
+
+#overflowTest {
+  font-family: 'roboto light', 'open sans','Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+  background: #595959;
+  color: #00ffff;
+  padding: 15px;
+  width: 80%;
+  height: 500px;
+  overflow: scroll;
+  border: 1px solid #a29c9c;
+  margin-left: 120px;
+}
+  
+.end {
+font-family: 'roboto', 'open sans','Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+color: #ffffff;
+text-align: center;
+font-size: 25px;
+text-shadow: 0.1em 0.1em 0.2em #00ffff;
+
+}
+
+#myBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #0221d4;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+@media (max-width:1280px) {
+#overflowTest {margin-bottom: 1%;}
+.end {margin-bottom: 0px;}
+#myBtn {margin-right: 70px; margin-bottom: 10px;}
+}
+
+@media (max-width:1024px) {
+#overflowTest {margin-bottom: -5%; margin-left: 90px;}
+.end {margin-bottom: 0px;}
+#myBtn {margin-right: 100px; margin-bottom: 10px;}
+}
+
+@media (max-width:768px) {
+.fanart {margin-left: 5px;}
+#overflowTest { margin-left: 60px; margin-bottom: 1%;}
+.end {margin-bottom: 0px;}
+#myBtn {margin-right:80px; margin-bottom: 10px;}
+}
+
+@media (max-width: 600px) {
+#overflowTest {margin-left: 45px; margin-bottom: -30px;}
+.end {margin-bottom: 0px;}
+#myBtn {margin-right: 150px; margin-bottom: 10px;}
+}
+
+@media (max-width:414px) {
+.video {margin-left: -15px;}
+#overflowTest {margin-left: 27px;margin-bottom: -30px;}
+.end {margin-bottom: 0px;}
+#myBtn {margin-right: 250px; margin-bottom: 10px;}
+}
+
+@media (max-width:375px) {
+.video {margin-left: -15px;}
+#overflowTest {margin-left: 23px; margin-bottom: -35px;}
+.end {margin-bottom: 0px;}
+#myBtn {margin-right: 230px; margin-bottom: 10px;}
+}
+
+@media(max-width:320px) {
+  .fanart {margin-left: 2px;}
+  .video {margin-left: -15px; }
+  .wow-letter {font-size: 40px;}
+  #overflowTest {margin-left: 16px; margin-bottom: -40px;}
+  .end {margin-bottom: 0px;}
+  #myBtn {margin-right: 290px; margin-bottom: 10px;}
+}
+
+
